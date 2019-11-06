@@ -37,8 +37,8 @@ public class EnergySystem {
 //            if (energyBoxes[from] < amount)
 //                return;
 
-            //while循环，保证条件不满足时任务都会被条件阻挡
-            //而不是继续竞争CPU资源
+            // while循环，保证条件不满足时任务都会被条件阻挡
+            // 而不是继续竞争CPU资源
             while (energyBoxes[from] < amount) {
                 try {
                     //条件不满足, 将当前线程放入Wait Set
@@ -56,7 +56,7 @@ public class EnergySystem {
             System.out.printf(" 能量总和：%10.2f%n", getTotalEnergies());
 
 
-            //唤醒所有在lockObj对象上等待的线程
+            // 唤醒所有在lockObj对象上等待的线程
             lockObj.notifyAll();
         }
     }
