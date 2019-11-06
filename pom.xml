@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.tuyrk</groupId>
+    <artifactId>learn-imooc</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>learn-imooc</name>
+    <description>https://www.imooc.com/learn/</description>
+
+    <modules>
+        <module>110-java3</module>
+        <module>122-mysql-0</module>
+        <module>123-file-io-stream</module>
+        <module>124-java2</module>
+        <module>161-java-socket</module>
+        <module>171-parse-xml</module>
+        <module>195-binary-system</module>
+        <module>199-reflect</module>
+        <module>202-multi-thread</module>
+        <module>251-create-xml</module>
+        <module>312-thread-runnable</module>
+        <module>352-volatile</module>
+        <module>354-excel</module>
+        <module>368-wechat-mp-1</module>
+        <module>401-wechat-mp-2</module>
+        <module>523-json</module>
+        <module>713-wechat-oauth</module>
+        <module>767-2hours-springboot</module>
+        <module>839-redis</module>
+        <module>889-elasticsearch</module>
+        <module>945-mini-app</module>
+        <module>1039-redis-lua</module>
+        <module>1059-miniapp-login</module>
+        <module>1089-redis5</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>aliyun</id>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+        <repository>
+            <id>huaweicloud</id>
+            <url>https://mirrors.huaweicloud.com/repository/maven/</url>
+        </repository>
+    </repositories>
+
+</project>
