@@ -76,6 +76,8 @@
 ### 1089-redis5<br>
 慕课网[《Redis5.0之12项新特性》](https://www.imooc.com/learn/1089)学习源码
 
+### 1193-node-base<br>
+慕课网[《前端面试加分福音--node基础》](https://www.imooc.com/learn/1193)学习源码
 
 计划：
 数据库设计那些事
