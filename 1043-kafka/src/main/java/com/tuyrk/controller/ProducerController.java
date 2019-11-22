@@ -36,8 +36,7 @@ public class ProducerController {
     public Response sendKafka(@RequestBody MessageEntity message) {
         try {
             log.info("kafka的消息={}", message);
-            Gson gson = new Gson();
-            simpleProducer.send(topic, "key", gson.toJson(message));
+            simpleProducer.send(topic, "key", message);
             log.info("发送Kafka成功。");
             return new Response(ErrorCode.SUCCESS, "发送Kafka成功");
         } catch (Exception e) {
