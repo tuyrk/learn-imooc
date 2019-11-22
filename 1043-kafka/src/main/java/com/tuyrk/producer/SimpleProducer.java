@@ -1,6 +1,5 @@
 package com.tuyrk.producer;
 
-import com.tuyrk.common.MessageEntity;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
