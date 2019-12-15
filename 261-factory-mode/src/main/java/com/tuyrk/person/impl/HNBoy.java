@@ -3,7 +3,7 @@ package com.tuyrk.person.impl;
 import com.tuyrk.person.Boy;
 
 /**
- * 圣诞系列的男孩
+ * 新年系列的男孩
  *
  * @author tuyrk
  */
