@@ -1,4 +1,4 @@
-package com.tuyrk.dynamic_proxy;
+package com.tuyrk.jdk_proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;

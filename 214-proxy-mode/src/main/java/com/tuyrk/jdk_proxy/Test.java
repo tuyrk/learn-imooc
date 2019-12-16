@@ -1,11 +1,10 @@
-package com.tuyrk.dynamic_proxy;
+package com.tuyrk.jdk_proxy;
 
 import com.tuyrk.static_proxy.Car;
 import com.tuyrk.static_proxy.Moveable;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
-import java.util.Arrays;
 
 /**
  * JDK动态代理测试类
