@@ -63,12 +63,17 @@
 ### 839-redis<br>
 慕课网[《Redis入门》](https://www.imooc.com/learn/767)学习源码
 
+### 889-elasticsearch<br>
+慕课网[《ElasticSearch入门》](https://www.imooc.com/learn/889)学习源码
 
 ### 945-mini-app<br>
 慕课网[《SpringBoot+MyBatis搭建迷你小程序》](https://www.imooc.com/learn/945)学习源码
 
 ### 1039-redis-lua<br>
 慕课网[《Redis的Lua脚本编程》](https://www.imooc.com/learn/1039)学习源码
+
+### 1043-kafka<br>
+慕课网[《Kafka流处理平台》](https://www.imooc.com/learn/1043)学习源码
 
 ### 1059-miniapp-login<br>
 慕课网[《Springboot 微信小程序 – 微信登录功能实战》](https://www.imooc.com/learn/1059)学习源码
