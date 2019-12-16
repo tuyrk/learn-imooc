@@ -8,7 +8,6 @@
 ### 110-java3<br>
 慕课网[《Java入门第三季》](https://www.imooc.com/learn/110)学习源码
 
-
 ### 122-mysql-0<br>
 慕课网[《与MySQL的零距离接触》](https://www.imooc.com/learn/122)学习源码
 
@@ -32,6 +31,9 @@
 
 ### 202-multi-thread<br>
 慕课网[《深入浅出Java多线程》](https://www.imooc.com/learn/202)学习源码
+
+### 214-proxy-mode<br>
+慕课网[《模式的秘密---代理模式》](https://www.imooc.com/learn/214)学习源码
 
 ### 251-create-xml<br>
 慕课网[《Java眼中的XML 文件写入》](https://www.imooc.com/learn/251)学习源码
