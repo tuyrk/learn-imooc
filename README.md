@@ -84,6 +84,9 @@
 ### 1089-redis5<br>
 慕课网[《Redis5.0之12项新特性》](https://www.imooc.com/learn/1089)学习源码
 
+### 1186-thread-base<br>
+慕课网[《Java并发编程的“基石”——多线程概念初识》](https://www.imooc.com/learn/1186)学习源码
+
 ### 1193-node-base<br>
 慕课网[《前端面试加分福音--node基础》](https://www.imooc.com/learn/1193)学习源码
 

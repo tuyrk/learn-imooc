@@ -12,7 +12,10 @@
     <artifactId>1186-thread-base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>1186-thread-base</name>
-    <description>Demo project for Spring Boot</description>
+    <description>
+        https://www.imooc.com/learn/1186
+        Java并发编程的“基石”——多线程概念初识
+    </description>
 
     <properties>
         <java.version>1.8</java.version>

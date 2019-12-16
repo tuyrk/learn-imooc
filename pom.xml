@@ -44,6 +44,7 @@
         <module>1059-miniapp-login</module>
         <module>1086-synchronized</module>
         <module>1089-redis5</module>
+        <module>1186-thread-base</module>
     </modules>
 
     <repositories>
