@@ -7,6 +7,11 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
+/**
+ * 小说实体类
+ *
+ * @author tuyrk
+ */
 @Data
 public class Novel {
     private String title;
