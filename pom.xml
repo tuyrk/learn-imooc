@@ -42,6 +42,7 @@
         <module>1039-redis-lua</module>
         <module>1043-kafka</module>
         <module>1059-miniapp-login</module>
+        <module>1086-synchronized</module>
         <module>1089-redis5</module>
     </modules>
 
