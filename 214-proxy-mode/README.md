@@ -50,7 +50,7 @@
 
 静态代理图
 
-![静态代理图](https://tva1.sinaimg.cn/large/006tNbRwgy1g9yud2gy5yj30qo0jcjxj.jpg)
+<img src="https://tva1.sinaimg.cn/large/006tNbRwgy1g9yud2gy5yj30qo0jcjxj.jpg" alt="静态代理图" style="zoom:35%;" />
 
 静态代理
 
@@ -159,7 +159,7 @@
 
 场景分析
 
-![实现功能叠加](https://tva1.sinaimg.cn/large/006tNbRwgy1g9yve0p9zqj31io0u07wh.jpg)
+<img src="https://tva1.sinaimg.cn/large/006tNbRwgy1g9yve0p9zqj31io0u07wh.jpg" alt="实现功能叠加" style="zoom:25%;" />
 
 代理类功能叠加
 
@@ -171,7 +171,7 @@
 
 - 使用继承方式
 
-  ![使用继承方式](https://tva1.sinaimg.cn/large/006tNbRwgy1g9yvfjlv03j30ta0e40zg.jpg)
+  <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1g9yvfjlv03j30ta0e40zg.jpg" alt="使用继承方式" style="zoom:40%;" />
 
   使用继承方式来实现代理功能的叠加，代理类会无限的膨胀下去，所以这种方式不推荐使用。
 
@@ -251,7 +251,7 @@
 
 场景分析
 
-![多种类的时间代理](https://tva1.sinaimg.cn/large/006tNbRwgy1g9ywn8g86yj31dm0nids3.jpg)
+<img src="https://tva1.sinaimg.cn/large/006tNbRwgy1g9ywn8g86yj31dm0nids3.jpg" alt="多种类的时间代理" style="zoom:25%;" />
 
 有没有方法动态产生代理，实现对不同类、不同方法的代理呢？
 
@@ -261,7 +261,7 @@ JDK动态代理类图
 
 > Java动态代理机制以巧妙的方式实现了代理模式的设计理念
 
-![JDK动态代理类图](https://tva1.sinaimg.cn/large/006tNbRwgy1g9ywswu2xgj31ba0a2whb.jpg)
+<img src="https://tva1.sinaimg.cn/large/006tNbRwgy1g9ywswu2xgj31ba0a2whb.jpg" alt="JDK动态代理类图" style="zoom:25%;" />
 
 Java动态代理类位于`java.lang.reflect`包下，一般主要涉及到以下两个类：
 
@@ -611,7 +611,7 @@ JDK动态代理与CGLIB动态代理区别
 
 > 不改变原有类的情况下，增加一些额外的业务逻辑。AOP
 
-![代理模式-动态代理](https://tva1.sinaimg.cn/large/006tNbRwgy1ga0w09naq0j30tk0bywhs.jpg)
+<img src="https://tva1.sinaimg.cn/large/006tNbRwgy1ga0w09naq0j30tk0bywhs.jpg" alt="代理模式-动态代理" style="zoom:50%;" />
 
 代理模式：
 
