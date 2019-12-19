@@ -19,6 +19,7 @@
 
     <modules>
         <module>110-java3</module>
+        <module>112-singleton-mode</module>
         <module>122-mysql-0</module>
         <module>123-file-io-stream</module>
         <module>124-java2</module>
@@ -27,7 +28,9 @@
         <module>195-binary-system</module>
         <module>199-reflect</module>
         <module>202-multi-thread</module>
+        <module>214-proxy-mode</module>
         <module>251-create-xml</module>
+        <module>261-factory-mode</module>
         <module>312-thread-runnable</module>
         <module>352-volatile</module>
         <module>354-excel</module>
