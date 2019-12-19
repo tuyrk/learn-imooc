@@ -50,7 +50,7 @@
 
 静态代理图
 
-<img src="https://tva1.sinaimg.cn/large/006tNbRwgy1g9yud2gy5yj30qo0jcjxj.jpg" alt="image-20191216203507152" style="zoom:35%;" />
+<img src="https://tva1.sinaimg.cn/large/006tNbRwgy1g9yud2gy5yj30qo0jcjxj.jpg" alt="静态代理图" style="zoom:35%;" />
 
 静态代理
 
