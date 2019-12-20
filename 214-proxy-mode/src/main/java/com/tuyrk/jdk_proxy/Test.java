@@ -33,7 +33,7 @@ public class Test {
         Class<? extends Car> cls = car.getClass();
         Moveable m = (Moveable) Proxy.newProxyInstance(cls.getClassLoader(), cls.getInterfaces(), h);
 
-        LogHandler h2 = new LogHandler(m);
+        InvocationHandler h2 = new LogHandler(m);
         Class<? extends Moveable> cls2 = m.getClass();
         Moveable m2 = (Moveable) Proxy.newProxyInstance(cls2.getClassLoader(), cls2.getInterfaces(), h2);
         m2.move();
