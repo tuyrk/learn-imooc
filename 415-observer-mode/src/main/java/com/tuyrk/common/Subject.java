@@ -25,7 +25,7 @@ public class Subject {
     }
 
     /**
-     * 删除指定的观察者
+     * 删除集合中指定的观察者
      *
      * @param observer 要删除的观察者对象
      */
