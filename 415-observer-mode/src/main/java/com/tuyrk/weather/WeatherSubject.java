@@ -24,7 +24,7 @@ public class WeatherSubject {
     }
 
     /**
-     * 删除订阅的人
+     * 删除集合中的指定订阅天气的人
      *
      * @param observer 需要删除订阅的人
      */
