@@ -56,6 +56,9 @@
 ### 401-wechat-mp-2<br>
 慕课网[《Java微信公众号开发进阶》](https://www.imooc.com/learn/401)学习源码
 
+### 415-observer-mode<br>
+慕课网[《观察者模式》](https://www.imooc.com/learn/415)学习源码
+
 ### 523-json<br>
 慕课网[《JSON快速入门（Java版）》](https://www.imooc.com/learn/523)学习源码
 

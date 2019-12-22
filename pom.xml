@@ -37,6 +37,7 @@
         <module>354-excel</module>
         <module>368-wechat-mp-1</module>
         <module>401-wechat-mp-2</module>
+        <module>415-observer-mode</module>
         <module>523-json</module>
         <module>713-wechat-oauth</module>
         <module>767-2hours-springboot</module>
@@ -47,9 +48,15 @@
         <module>1043-kafka</module>
         <module>1059-miniapp-login</module>
         <module>1086-synchronized</module>
-        <module>1089-redis5</module>
         <module>1186-thread-base</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+    </dependencies>
 
     <repositories>
         <repository>
