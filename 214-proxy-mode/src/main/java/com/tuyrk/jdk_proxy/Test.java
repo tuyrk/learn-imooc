@@ -12,22 +12,29 @@ import java.lang.reflect.Proxy;
  * @author tuyrk
  */
 public class Test {
-    public static void main(String[] args) {
-        // 1. JDK动态代理
-        /*Car car = new Car();
+    /**
+     * 1. JDK动态代理
+     */
+    @org.junit.Test
+    public void test1() {
+        Car car = new Car();
         InvocationHandler h = new TimeHandler(car);
         Class<? extends Car> cls = car.getClass();
         // 使用Proxy类newProxyInstance方法动态创建代理类
-        *//*
+        /*
           loader 类加载器
           interfaces 实现接口
           h InvocationHandler
-         *//*
+         */
         Moveable m = (Moveable) Proxy.newProxyInstance(cls.getClassLoader(), cls.getInterfaces(), h);
-        m.move();*/
+        m.move();
+    }
 
-
-        // 2. 功能叠加的JDK动态代理
+    /**
+     * 2. 功能叠加的JDK动态代理
+     */
+    @org.junit.Test
+    public void test2() {
         Car car = new Car();
         InvocationHandler h = new TimeHandler(car);
         Class<? extends Car> cls = car.getClass();
