@@ -41,6 +41,12 @@
 ### 251-create-xml<br>
 慕课网[《Java眼中的XML 文件写入》](https://www.imooc.com/learn/251)学习源码
 
+### 257-responsibility-mode<br>
+慕课网[《模式的秘密---责任链模式》](https://www.imooc.com/learn/257)学习源码
+
+### 261-factory-mode<br>
+慕课网[《模式的秘密——工厂模式》](https://www.imooc.com/learn/261)学习源码
+
 ### 312-thread-runnable<br>
 慕课网[《细说多线程之Thread VS Runnable》](https://www.imooc.com/learn/312)学习源码
 

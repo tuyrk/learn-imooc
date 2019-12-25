@@ -31,6 +31,7 @@
         <module>202-multi-thread</module>
         <module>214-proxy-mode</module>
         <module>251-create-xml</module>
+        <module>257-responsibility-mode</module>
         <module>261-factory-mode</module>
         <module>312-thread-runnable</module>
         <module>352-volatile</module>

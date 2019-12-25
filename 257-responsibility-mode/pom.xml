@@ -8,9 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>257-responsibility-chain-mode</artifactId>
+    <artifactId>257-responsibility-mode</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>257-responsibility-chain-mode</name>
+    <name>257-responsibility-mode</name>
     <description>
         http://www.imooc.com/learn/257
         模式的秘密---责任链模式
