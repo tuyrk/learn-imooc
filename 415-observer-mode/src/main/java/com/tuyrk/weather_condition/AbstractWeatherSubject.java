@@ -15,7 +15,7 @@ public abstract class AbstractWeatherSubject {
     protected List<Observer> observers = new ArrayList<>();
 
     /**
-     * 增加观察者
+     * 增加观察者添加到订阅列表中
      *
      * @param observer 需要添加的观察者对象
      */
@@ -24,7 +24,7 @@ public abstract class AbstractWeatherSubject {
     }
 
     /**
-     * 删除观察者
+     * 删除集合中指定的观察者
      *
      * @param observer 需要删除的观察者对象
      */
