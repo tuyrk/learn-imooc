@@ -1,5 +1,6 @@
-package com.tuyrk.handler;
+package com.tuyrk;
 
+import com.tuyrk.handler.PriceHandler;
 import lombok.Data;
 
 import java.util.Random;

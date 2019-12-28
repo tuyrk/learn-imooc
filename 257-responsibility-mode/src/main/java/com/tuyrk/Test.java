@@ -1,7 +1,7 @@
-package com.tuyrk.handler2;
+package com.tuyrk;
 
-import com.tuyrk.handler.Customer;
 import com.tuyrk.handler.PriceHandler;
+import com.tuyrk.handler2.PriceHandlerFactory;
 
 import java.util.Random;
 import java.util.stream.IntStream;
@@ -15,6 +15,7 @@ import java.util.stream.IntStream;
 public class Test {
     public static void main(String[] args) {
         Customer customer = new Customer();
+        // customer.setPriceHandler(PriceHandler.createPriceHandler());
         customer.setPriceHandler(PriceHandlerFactory.createPriceHandler());
         Random random = new Random();
         IntStream.rangeClosed(1, 100).forEach(i -> {
