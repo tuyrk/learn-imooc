@@ -12,8 +12,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>257-responsibility-mode</name>
     <description>
-        http://www.imooc.com/learn/257
         模式的秘密---责任链模式
+        http://www.imooc.com/learn/257
     </description>
 
     <properties>
@@ -36,6 +36,10 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 
