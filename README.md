@@ -23,6 +23,9 @@
 ### 161-java-socket<br>
 慕课网[Java Socket应用---通信是这样练成的](https://www.imooc.com/learn/161)学习源码
 
+### 165-strategy-mode<br>
+慕课网[模式的秘密--策略模式](https://www.imooc.com/learn/165)学习源码
+
 ### 171-parse-xml<br>
 慕课网[《Java眼中的XML---文件读取》](https://www.imooc.com/learn/171)学习源码
 

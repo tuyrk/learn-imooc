@@ -25,6 +25,7 @@
         <module>124-java2</module>
         <module>146-adapter-mode</module>
         <module>161-java-socket</module>
+        <module>165-strategy-mode</module>
         <module>171-parse-xml</module>
         <module>195-binary-system</module>
         <module>199-reflect</module>
