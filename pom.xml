@@ -23,6 +23,7 @@
         <module>122-mysql-0</module>
         <module>123-file-io-stream</module>
         <module>124-java2</module>
+        <module>145-template-mode</module>
         <module>146-adapter-mode</module>
         <module>161-java-socket</module>
         <module>165-strategy-mode</module>

@@ -17,6 +17,9 @@
 ### 124-java2<br>
 慕课网[《Java入门第二季》](https://www.imooc.com/learn/124)学习源码
 
+### 145-template-mode<br>
+慕课网[《模式的秘密---模板方法模式》](https://www.imooc.com/learn/145)学习源码
+
 ### 146-adapter-mode<br>
 慕课网[《模式的秘密---适配器模式》](https://www.imooc.com/learn/146)学习源码
 
