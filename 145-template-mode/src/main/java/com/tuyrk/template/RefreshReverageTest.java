@@ -1,4 +1,4 @@
-package com.tuyrk;
+package com.tuyrk.template;
 
 /**
  * 模板方法模式

@@ -1,4 +1,4 @@
-package com.tuyrk;
+package com.tuyrk.hook;
 
 /**
  * 模板方法模式
@@ -19,7 +19,21 @@ public abstract class RefreshBeverage {
         // 步骤三：将饮料倒入杯中
         pourInCup();
         // 步骤四：加入调味料
-        addCondiments();
+        if (isCustomerWantsCondiments()) {
+            addCondiments();
+        }
+    }
+
+    /**
+     * hook方法（钩子函数）提供一个默认或空的实现
+     * 具体的子类可以自行决定是否挂钩以及如何挂钩
+     * 询问用户是否加入调料
+     *
+     * @return 是否加入调料
+     */
+    protected boolean isCustomerWantsCondiments() {
+        // 默认需要加入调味料
+        return true;
     }
 
     /**
