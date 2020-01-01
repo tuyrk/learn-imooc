@@ -25,7 +25,7 @@ public abstract class RefreshBeverage {
     /**
      * 基本方法，将水煮沸
      */
-    protected void boilWater() {
+    private void boilWater() {
         System.out.println("将水煮沸");
     }
 
