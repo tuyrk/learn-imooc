@@ -98,6 +98,9 @@
 ### 1059-miniapp-login<br>
 慕课网[《Springboot 微信小程序 – 微信登录功能实战》](https://www.imooc.com/learn/1059)学习源码
 
+### 1180-decorator-mode<br>
+慕课网[《装饰者模式》](https://www.imooc.com/learn/1180)学习源码
+
 ### 1086-synchronized<br>
 慕课网[《Java高并发之魂：synchronized深度解析》](https://www.imooc.com/learn/1086)学习源码
 
