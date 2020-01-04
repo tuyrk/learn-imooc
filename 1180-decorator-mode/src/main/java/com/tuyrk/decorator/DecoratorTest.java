@@ -26,9 +26,17 @@ public class DecoratorTest {
         System.out.println(sugarSoya.money());
         System.out.println(sugarSoya.desc());
 
-        // 创建西瓜对象
+        // 新增具体装饰-创建西瓜对象
         Watermelon watermelonSugarSoya = new Watermelon(sugarSoya);
         System.out.println(watermelonSugarSoya.money());
         System.out.println(watermelonSugarSoya.desc());
+
+        // 新增被装饰者-搭配果汁
+        Drink fruit = new Fruit();
+        System.out.println(fruit.money());
+        System.out.println(fruit.desc());
+        Drink eggFruit = new Egg(fruit);
+        System.out.println(eggFruit.money());
+        System.out.println(eggFruit.desc());
     }
 }
