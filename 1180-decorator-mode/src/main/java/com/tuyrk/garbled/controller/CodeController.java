@@ -1,13 +1,11 @@
 package com.tuyrk.garbled.controller;
 
-import com.tuyrk.garbled.util.CodeUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
-import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
 /**
@@ -39,10 +37,10 @@ public class CodeController {
         for (String hobby : hobbies) {
             System.out.println(new String(hobby.getBytes(StandardCharsets.ISO_8859_1), StandardCharsets.UTF_8));// 抽烟, 喝酒, 烫头
         }*/
-        System.out.println(CodeUtil.newCode(username));// 神秘的小岛岛
+        /*System.out.println(CodeUtil.newCode(username));// 神秘的小岛岛
         for (String hobby : hobbies) {
             System.out.println(CodeUtil.newCode(hobby));// 抽烟, 喝酒, 烫头
-        }
+        }*/
         return "";
     }
 }
