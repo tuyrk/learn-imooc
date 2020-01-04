@@ -17,13 +17,18 @@ public class DecoratorTest {
         System.out.println(redBeanSoya.money());
         System.out.println(redBeanSoya.desc());
         // 向红豆豆浆中加入鸡蛋
-        Drink redBeanSoyaEgg = new Egg(redBeanSoya);
-        System.out.println(redBeanSoyaEgg.money());
-        System.out.println(redBeanSoyaEgg.desc());
+        Drink eggRedBeanSoya = new Egg(redBeanSoya);
+        System.out.println(eggRedBeanSoya.money());
+        System.out.println(eggRedBeanSoya.desc());
 
         // 需要糖豆浆
         Drink sugarSoya = new Sugar(soya);
         System.out.println(sugarSoya.money());
         System.out.println(sugarSoya.desc());
+
+        // 创建西瓜对象
+        Watermelon watermelonSugarSoya = new Watermelon(sugarSoya);
+        System.out.println(watermelonSugarSoya.money());
+        System.out.println(watermelonSugarSoya.desc());
     }
 }
