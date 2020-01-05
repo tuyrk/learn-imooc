@@ -1,7 +1,5 @@
 package com.tuyrk.garbled.filter;
 
-import com.tuyrk.garbled.decorator.Parameter;
-import com.tuyrk.garbled.decorator.ParameterValues;
 import com.tuyrk.garbled.decorator2.NewDecorator;
 
 import javax.servlet.*;
