@@ -9,11 +9,11 @@ import javax.servlet.http.HttpServletRequestWrapper;
  *
  * @author tuyrk
  */
-public class Decorators extends HttpServletRequestWrapper {
+public abstract class Decorators extends HttpServletRequestWrapper {
     /**
      * 持有接口的引用
      */
-    HttpServletRequest request;
+    private HttpServletRequest request;
 
     public Decorators(HttpServletRequest request) {
         super(request);
