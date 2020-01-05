@@ -2,6 +2,7 @@ package com.tuyrk.garbled.filter;
 
 import com.tuyrk.garbled.decorator.Parameter;
 import com.tuyrk.garbled.decorator.ParameterValues;
+import com.tuyrk.garbled.decorator2.NewDecorator;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
@@ -22,7 +23,9 @@ public class CodeFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
-        HttpServletRequest codeRequest = new Parameter(new ParameterValues(request));
+        /*HttpServletRequest codeRequest = new Parameter(new ParameterValues(request));*/
+        // 简化方式
+        HttpServletRequest codeRequest = new NewDecorator(request);
         filterChain.doFilter(codeRequest, servletResponse);
     }
 
