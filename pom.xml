@@ -53,6 +53,7 @@
         <module>1086-synchronized</module>
         <module>1180-decorator-mode</module>
         <module>1186-thread-base</module>
+        <module>1196-lambda</module>
     </modules>
 
     <dependencies>

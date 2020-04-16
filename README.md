@@ -113,6 +113,9 @@
 ### 1193-node-base<br>
 慕课网[《前端面试加分福音--node基础》](https://www.imooc.com/learn/1193)学习源码
 
+### 1196-lambda<br>
+慕课网[《一课掌握Lambda表达式语法及应用》](https://www.imooc.com/learn/1196)学习源码
+
 计划：
 数据库设计那些事
 https://www.imooc.com/learn/117
