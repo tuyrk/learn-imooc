@@ -1,0 +1,27 @@
+## 数据库配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/1130-mybatis-plus01?useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+## 日志配置
+logging:
+  level:
+    root: warn
+    com.tuyrk.mybatisplus.crud.dao: trace
+    com.tuyrk.mybatisplus.quickstart.dao: trace
+  pattern:
+    console: '%p%m%n'
+mybatis-plus:
+  mapper-locations:
+    - classpath*:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: none
+      insert-strategy: ignored
+      # table-prefix: mp_
+  # config-location: classpath:mybatis-config.xml
+  type-aliases-package: com.tuyrk.mybatisplus.quickstart.entity
+  configuration:
+    map-underscore-to-camel-case: true

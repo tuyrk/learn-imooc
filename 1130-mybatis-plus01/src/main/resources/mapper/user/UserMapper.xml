@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tuyrk.mybatisplus.quickstart.dao.UserMapper">
+    <select id="selectAllByXml" resultType="User">
+        select *
+        from user ${ew.customSqlSegment}
+    </select>
+
+    <select id="selectUserPage" resultType="com.tuyrk.mybatisplus.quickstart.entity.User">
+        select *
+        from user ${ew.customSqlSegment}
+    </select>
+</mapper>
