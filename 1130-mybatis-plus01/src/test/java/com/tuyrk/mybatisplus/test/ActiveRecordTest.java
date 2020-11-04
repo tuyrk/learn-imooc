@@ -4,7 +4,7 @@ import com.tuyrk.mybatisplus.ApplicationTests;
 import com.tuyrk.mybatisplus.quickstart.entity.User;
 import org.junit.jupiter.api.Test;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class ActiveRecordTest extends ApplicationTests {
     @Test
@@ -14,7 +14,7 @@ public class ActiveRecordTest extends ApplicationTests {
         user.setAge(24);
         user.setEmail("zc@baomidou.com");
         user.setManagerId(1088248166370832385L);
-        user.setCreateTime(LocalDate.now());
+        user.setCreateTime(LocalDateTime.now());
         boolean insert = user.insert();
         System.out.println("insert = " + insert);
         System.out.println(user.getId());
@@ -66,7 +66,7 @@ public class ActiveRecordTest extends ApplicationTests {
         user.setAge(24);
         user.setEmail("zq@baomidou.com");
         user.setManagerId(1088248166370832385L);
-        user.setCreateTime(LocalDate.now());
+        user.setCreateTime(LocalDateTime.now());
         boolean insert = user.insertOrUpdate();
         System.out.println("insert = " + insert);
     }

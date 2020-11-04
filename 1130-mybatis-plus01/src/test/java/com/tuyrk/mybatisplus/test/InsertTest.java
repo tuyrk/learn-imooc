@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class InsertTest extends ApplicationTests {
     @Autowired
@@ -22,7 +22,7 @@ public class InsertTest extends ApplicationTests {
      */
     @Test
     public void insert() {
-        User user = new User(null, "刘明强", 31, null, 1088248166370832385L, LocalDate.now());
+        User user = new User(null, "刘明强", 31, null, 1088248166370832385L, LocalDateTime.now());
         int rows = UserMapper.insert(user);
         System.out.println("影响记录数：" + rows);
         Assertions.assertEquals(1, rows);
