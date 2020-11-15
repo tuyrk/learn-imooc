@@ -1,0 +1,22 @@
+## 数据库配置
+spring:
+  datasource:
+    # driver-class-name: com.mysql.cj.jdbc.Driver
+    # url: jdbc:mysql://localhost:3306/1171-mybatis-plus02?useSSL=false&serverTimezone=GMT%2B8
+    driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+    url: jdbc:p6spy:mysql://localhost:3306/1171-mybatis-plus02?useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+## 日志配置
+logging:
+  level:
+    root: warn
+    com.tuyrk.mybatisplus.dao: trace
+  pattern:
+    console: '%p%m%n'
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-not-delete-value: 0
+      logic-delete-value: 1
+
